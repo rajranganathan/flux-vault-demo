@@ -7,6 +7,8 @@ metadata:
 spec:
   interval: 1m
   approvePlan: auto
+  destroyResourcesOnDeletion: true
+  enableInventory: true
   path: ./base/terraform/k8s-vault-config
   sourceRef:
     kind: GitRepository
